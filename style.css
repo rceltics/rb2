@@ -1,0 +1,49 @@
+body { 
+	font-family: Helvetica; 
+} 
+::selection { 
+	background: #FFF3E6; 
+} 
+a { 
+	color: #FF1A1A; 
+	text-decoration: none; 
+}
+div#embed { 
+	padding-top: 1em; 
+	align-content: center; 
+} 
+footer { 
+	color: #757575;
+	text-align: right;
+	position: absolute;
+    left: -0.5em;
+    bottom: -0.5em;
+    width: 100%;
+} 
+footer a { 
+	color: #81C784;
+}
+.alert {
+	max-width: 50%;
+	font-size: 1em;
+	color: #000;
+	position: relative; 
+}
+.alert.urgent {
+  background: #FFCA28;
+}
+
+.alert.critical {
+  background: #B71C1C;
+}
+
+.alert.urgent {
+  border: 1px solid #FF8F00;
+}
+
+.alert.critical {
+  border: 1px solid #D50000;
+}
+.close {
+	font-size: 1em;
+}
